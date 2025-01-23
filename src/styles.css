@@ -1,0 +1,23 @@
+/* filepath: /c:/Users/naduk/Documents/project/frontend/src/styles.css */
+@import '../node_modules/bulma/css/bulma.css';
+@import "../node_modules/bootstrap/dist/css/bootstrap.css";
+
+
+ /* You can add global styles to this file, and also import other style files */
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    height: 100%;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+    
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  

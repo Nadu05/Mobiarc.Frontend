@@ -2,13 +2,7 @@
 @import '../../../node_modules/bulma/css/bulma.css';
 @import '../../../node_modules/bootstrap/dist/css/bootstrap.css';
 
-header {
-    display: flex;
-    height: 81px;
-    padding: 1rem;
-    background-color: #f4ecec;
-    
-}
+
 
 .side-bar {
     position: fixed;
@@ -53,12 +47,23 @@ header {
     background-color: #ffffff;
 }
 
+header {
+    
+    display: flex;
+    height: 81px;
+    padding: 1rem;
+    background-color: #f4ecec;
+    
+}
+
 
 
 header .header-content {
     display: flex;
-    margin-left: 800px;
     justify-content: space-between;
+  position: fixed;
+  top: 8;
+  right: 0;
     align-items: center;
     gap: 1rem;
 
@@ -69,6 +74,8 @@ header .header-content {
     background-color: #f4ecec;
     
 }
+
+
 header .header-content .user-image{
     margin-left: 3px;
     width: 60px;
